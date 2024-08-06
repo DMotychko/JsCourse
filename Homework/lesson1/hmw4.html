@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    let firstName = prompt("Введіть своє імя");
+    let lastName = prompt("Введіть свою фамілію");
+    let age = prompt("Введіть свій вік");
+
+    if (typeof age !== "number") {
+        age = prompt("Ввведіть свій коректно, тільки цифри");
+    }
+
+    let user = {
+        firstName,
+        lastName,
+        age: +age
+    }
+
+    console.log(user)
+
+    //Я знаю що ми це ще не проходили, но це і так додаткове завдання хотів трохи здогадати те що вчив давно
+</script>
+</body>
+</html>
