@@ -234,7 +234,7 @@ let coursesArray = [
 const modulesSass = coursesArray.filter((e) => e.modules.indexOf('sass') >= 0);
 const modulesDocker = coursesArray.filter((e) => e.modules.indexOf('docker') >= 0);
 console.log(modulesSass);
-console.log(modulesDocker)
+console.log(modulesDocker);
 
 
 
